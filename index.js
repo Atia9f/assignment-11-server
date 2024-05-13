@@ -194,7 +194,6 @@ async function run() {
 
     app.get('/allAddfood', logger, verifyToken, async (req, res) => {
       console.log(req.query.email);
-      // console.log('cook cookies', req.cookies)
       let query = {};
       if (req.query?.email) {
         query = { 'donator.email': req.query.email }; // Include the nested field 'donator.email'
