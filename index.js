@@ -148,7 +148,7 @@ async function run() {
       const result = await foodReqCollection.deleteOne(query);
       res.send(result);
     })
-    // ..............................................................................................
+    // ...........................................................................................
     // update or edit a user food
     app.get('/allFood/:id', async (req, res) => {
       const id = req.params.id;
