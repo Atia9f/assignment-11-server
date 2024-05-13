@@ -11,10 +11,11 @@ const port = process.env.PORT || 5000;
 // middle ware
 app.use(cors({
   origin: [
-    'http://localhost:5173'
+    // 'http://localhost:5173', 
 
-    // 'https://eleven-assignment-993a2.web.app',
-    // 'https://eleven-assignment-993a2.firebaseapp.com'
+    'https://assignment-11-19bd1.web.app',
+    'https://assignment-11-19bd1.firebaseapp.com'
+    
   ],
   credentials: true
 }));
