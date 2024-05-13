@@ -242,7 +242,6 @@ async function run() {
     });
 
 
-    //my request page cancel {delete }
 
 
     //for singleFoodDetails
