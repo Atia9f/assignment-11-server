@@ -218,7 +218,7 @@ async function run() {
         res.json(result);
     })
 
-    // for donator manage page .....................................................................
+    // for donator manage page .....................................................
     app.get('/donatorManage', async (req, res) => {
       console.log(req.query.email);
       let query = {};
